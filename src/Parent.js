@@ -3,6 +3,7 @@ import Child from "./Child";
 
 export default function Parent() {
   const [value, setValue] = useState(0);
+
   return (
     <div>
       <Child count={500} />
