@@ -8,7 +8,7 @@ export default function Parent() {
 
   return (
     <div>
-      <Child count={500} />
+      <Child count={100} />
       {value}
       <button onClick={() => setValue((value) => value + 1)}>click me</button>
       <input ref={inRef} type="text" placeholder="Name" name="name" />
