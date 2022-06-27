@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useId } from "react";
 
 function Child(props) {
   const [showPanel, setShowPanel] = useState(true);
+  const id = useId();
   useEffect(() => {
     console.log("Component hazirlandi!");
   }, [showPanel]);
@@ -17,7 +18,7 @@ function Child(props) {
             color: "white",
           }}
         >
-          Hello World!
+          Hello World! {id}
         </div>
       )}
       <button onClick={() => setShowPanel((prev) => !prev)}>showPanel</button>
