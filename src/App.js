@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Parent from "./Parent";
+import ReducerApp from "./ReducerApp";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,6 +21,7 @@ function App() {
       </button>
       <button onClick={handleCount}>increase</button>
       <Parent />
+      <ReducerApp/>
     </div>
   );
 }
