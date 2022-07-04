@@ -44,3 +44,7 @@ useReducer()
 1. useReducer faylinda numune var
 2. componentde coxlu sayda state olduqda useReducer-edn istifade olunur
 3. useState-in butun xususiyyetlerini ozunde dashiyir
+
+React Router Hoks
+
+1. useParams(), useNavigate() ve s. https://reactrouter.com/docs/en/v6
