@@ -1,12 +1,10 @@
 useEffect()
 
-1. useEffect istifade novleri:
-   a. useEffect(func, null) - hem MOUNT, hem de UPDATE olunanda ishe dushecek
-   b. useeffect(func, []) - yalniz MOUNT olunanda ishe dushecek
-   c. useEffect(func, [props or state]) - hem MOUNT, hem de arraydeki deyishenler UPDATE olunanda ishe dushecek
-   d. useEffect(return ()=>func()) - UNMOUNT kimi ishleyecek
-
-2. useEffect hemcinin eger shouldComponent kimi ishleyerek eger deyer deyishmirse bu zaman update olunmur
+1. useEffect(func, null) - hem MOUNT, hem de UPDATE olunanda ishe dushecek
+2. useeffect(func, []) - yalniz MOUNT olunanda ishe dushecek
+3. useEffect(func, [props or state]) - hem MOUNT, hem de arraydeki deyishenler UPDATE olunanda ishe dushecek
+4. useEffect(return ()=>func()) - UNMOUNT kimi ishleyecek
+5. useEffect hemcinin eger shouldComponent kimi ishleyerek eger deyer deyishmirse bu zaman update olunmur
 
 useLayoutEffect()
 
