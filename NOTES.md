@@ -36,3 +36,13 @@ useCallback()
 Custom Hook
 
 1. custom hook-lar ozumuzun ish prosesinde yaratdigimiz hook-lardir. fayldaki CustomHook faylinda numune hook+ yardilib.
+
+useFormik()
+
+1. formik kitabxanasindan istifade olunur https://formik.org/docs/api/useFormik
+
+useReducer()
+
+1. useReducer faylinda numune var
+2. componentde coxlu sayda state olduqda useReducer-edn istifade olunur
+3. useState-in butun xususiyyetlerini ozunde dashiyir
